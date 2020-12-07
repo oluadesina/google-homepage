@@ -1,0 +1,30 @@
+#top_navigation {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+
+}
+
+#top_navigation li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #7a7a7a; 
+    font-size: 14px; 
+    }
+
+#google_logo {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#search_field {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+}
