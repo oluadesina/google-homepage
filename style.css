@@ -1,9 +1,9 @@
+
 #top_navigation {
     display: flex; 
     flex-direction: row;
     justify-content: flex-end;
     list-style-type: none;
-
 }
 
 #top_navigation li a {
@@ -24,31 +24,39 @@
 #search_field {
     display: flex; 
     flex-direction: row;
-    justify-content: center;
+    position: relative;
     margin-top: 30px;
+    border: 1px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  max-width: 600px;
+  width: 100%; 
+  margin: auto; 
+  margin-top: 30px;
 }
 
- /* Can also get element via id
-#input_search {
-    width: 70%;
-    height: 40px; 
-    border-radius: 20px; 
-    border: 1px solid #cccccc;
+
+#magnifying_glass {
+    width: 40px;
+    height: 40px;
 }
-*/
+
+#voice_icon {
+    width: 20px;
+    height: 25px;
+    padding: 5px;
+}
 
 input[type=search] {
-    width: 70%;
-    height: 40px; 
-    border-radius: 20px; 
-    border: 1px solid #cccccc;
+    width: 86%;
+    border: white; 
+    outline: none;
 }
 
 #input_search::placeholder {
     color: rgb(180, 180, 180); 
-    
-    
 }
+
 footer ul {
     padding: 20px;
     display: flex; 
@@ -58,17 +66,14 @@ footer ul {
     background-color: #ececec;
     width: 100%; 
     position: absolute;
-    bottom: 0; 
-    
-    
-    
+    bottom: 0;   
 }
 
-footer ul li a {
-    
+footer ul li a { 
     padding: 50px;
     text-decoration: none;
     color: #7a7a7a; 
     font-size: 14px; 
     font-family: Arial, Helvetica, sans-serif;
 }
+
